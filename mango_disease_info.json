@@ -1,0 +1,170 @@
+{
+  "Sooty Mould": {
+    "fertilizer": "Balanced NPK fertilizer",
+    "water": "70%",
+    "medicine": ["Fungicide spray"],
+    "organic_medicine": ["Neem oil spray"],
+    "prevention": "Avoid excessive nitrogen; prune infected branches."
+  },
+  "Stem End Rot": {
+    "fertilizer": "Potassium-rich fertilizer",
+    "water": "75%",
+    "medicine": ["Carbendazim"],
+    "organic_medicine": ["Compost tea spray"],
+    "prevention": "Ensure good drainage and proper post-harvest handling."
+  },
+  "White Scale": {
+    "fertilizer": "Balanced NPK",
+    "water": "80%",
+    "medicine": ["Insecticidal soap"],
+    "organic_medicine": ["Neem oil"],
+    "prevention": "Regular monitoring; remove infested branches."
+  },
+  "Powdery Mildew": {
+    "fertilizer": "Sulfur-based fertilizer",
+    "water": "60%",
+    "medicine": ["Sulfur fungicide"],
+    "organic_medicine": ["Neem extract spray"],
+    "prevention": "Avoid dense planting; improve air circulation."
+  },
+  "Red Rust": {
+    "fertilizer": "Potassium-rich fertilizer",
+    "water": "65%",
+    "medicine": ["Copper fungicide"],
+    "organic_medicine": ["Neem oil spray"],
+    "prevention": "Prune affected parts; avoid waterlogging."
+  },
+  "Shoot Borer": {
+    "fertilizer": "Balanced NPK",
+    "water": "70%",
+    "medicine": ["Lambda-cyhalothrin"],
+    "organic_medicine": ["Neem cake"],
+    "prevention": "Regular pruning and monitoring."
+  },
+  "Shoot Webber Orthaga exvinacea(LEAF FEEDERS)": {
+    "fertilizer": "Balanced NPK",
+    "water": "70%",
+    "medicine": ["Bacillus thuringiensis spray"],
+    "organic_medicine": ["Neem oil spray"],
+    "prevention": "Remove affected shoots early."
+  },
+  "Mango Malformation": {
+    "fertilizer": "Zinc and Boron supplements",
+    "water": "80%",
+    "medicine": ["Cytokinin sprays"],
+    "organic_medicine": ["Neem oil"],
+    "prevention": "Remove malformed shoots and maintain hygiene."
+  },
+  "Mango Nut Weevil, Sternochaetus mangiferae": {
+    "fertilizer": "Balanced NPK",
+    "water": "70%",
+    "medicine": ["Malathion"],
+    "organic_medicine": ["Neem seed extract"],
+    "prevention": "Bagging fruits and proper sanitation."
+  },
+  "Mango Stem Borer": {
+    "fertilizer": "Balanced NPK",
+    "water": "70%",
+    "medicine": ["Chlorpyrifos"],
+    "organic_medicine": ["Neem cake"],
+    "prevention": "Remove and destroy infested branches."
+  },
+  "Leaf Twisting Weevil": {
+    "fertilizer": "Balanced NPK",
+    "water": "70%",
+    "medicine": ["Carbaryl"],
+    "organic_medicine": ["Neem oil spray"],
+    "prevention": "Regular monitoring and pruning affected leaves."
+  },
+  "Loopers, Thalassodes quadraria, Chloroclystis sp": {
+    "fertilizer": "Balanced NPK",
+    "water": "70%",
+    "medicine": ["Bacillus thuringiensis spray"],
+    "organic_medicine": ["Neem oil"],
+    "prevention": "Remove infested leaves and use pheromone traps."
+  },
+  "Mango Bud Mite": {
+    "fertilizer": "Balanced NPK",
+    "water": "70%",
+    "medicine": ["Dicofol"],
+    "organic_medicine": ["Neem oil spray"],
+    "prevention": "Prune affected buds and maintain hygiene."
+  },
+  "Mango Hoppers": {
+    "fertilizer": "Balanced NPK",
+    "water": "70%",
+    "medicine": ["Imidacloprid"],
+    "organic_medicine": ["Neem oil spray"],
+    "prevention": "Regular monitoring and spraying during flowering."
+  },
+  "Mango Leaf Gall Midge": {
+    "fertilizer": "Balanced NPK",
+    "water": "70%",
+    "medicine": ["Malathion"],
+    "organic_medicine": ["Neem extract"],
+    "prevention": "Remove galls and maintain tree hygiene."
+  },
+  "Hairy Caterpillars, Euproctis fraterna, Prothesia scintillans": {
+    "fertilizer": "Balanced NPK",
+    "water": "70%",
+    "medicine": ["Quinalphos"],
+    "organic_medicine": ["Neem oil spray"],
+    "prevention": "Handpick larvae and use light traps."
+  },
+  "Healthy": {
+    "fertilizer": "Balanced NPK",
+    "water": "70%",
+    "medicine": ["N/A"],
+    "organic_medicine": ["N/A"],
+    "prevention": "Maintain proper nutrition and irrigation."
+  },
+  "Inflorescence Midge": {
+    "fertilizer": "Balanced NPK",
+    "water": "70%",
+    "medicine": ["Malathion"],
+    "organic_medicine": ["Neem oil"],
+    "prevention": "Prune affected inflorescences."
+  },
+  "Aphids (Toxoptera odinae)": {
+    "fertilizer": "Balanced NPK",
+    "water": "70%",
+    "medicine": ["Imidacloprid"],
+    "organic_medicine": ["Neem oil spray"],
+    "prevention": "Regular monitoring and encourage natural predators."
+  },
+  "Bark Borer (Indarbela tetraonis)": {
+    "fertilizer": "Balanced NPK",
+    "water": "70%",
+    "medicine": ["Chlorpyrifos"],
+    "organic_medicine": ["Neem cake"],
+    "prevention": "Remove infested bark and maintain hygiene."
+  },
+  "Flower Webber, Eublemma versicolor": {
+    "fertilizer": "Balanced NPK",
+    "water": "70%",
+    "medicine": ["Bacillus thuringiensis"],
+    "organic_medicine": ["Neem oil"],
+    "prevention": "Remove webbed flowers and destroy them."
+  },
+  "Fruit Fly, Bactrocera (Dacus) dorsalis": {
+    "fertilizer": "Balanced NPK",
+    "water": "70%",
+    "medicine": ["Protein bait spray"],
+    "organic_medicine": ["Sticky traps"],
+    "prevention": "Bag fruits and destroy fallen fruits."
+  },
+  "Grey Blight": {
+    "fertilizer": "Balanced NPK",
+    "water": "70%",
+    "medicine": ["Mancozeb spray"],
+    "organic_medicine": ["Neem oil spray"],
+    "prevention": "Remove infected leaves and improve air circulation."
+  },
+  "Anthracnose": {
+    "fertilizer": "Balanced NPK",
+    "water": "70%",
+    "medicine": ["Copper oxychloride"],
+    "organic_medicine": ["Neem oil"],
+    "prevention": "Prune affected parts and spray fungicides during flowering."
+  }
+}
