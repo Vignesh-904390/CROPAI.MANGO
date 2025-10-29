@@ -99,6 +99,53 @@ def split_image_regions(image, grid=(2,2)):
             regions.append(image.crop((left, top, left+ws, top+hs)))
     return regions
 
+# === Send Prediction Result Email ===
+def send_prediction_result_email(filename, prediction_results, image_path=None):
+    try:
+        msg = Message("🌴 New Mango Disease Detection Result",
+                      sender=app.config['MAIL_USERNAME'],
+                      recipients=['tdaitech@gmail.com'])
+        
+        # Create email body with prediction results
+        email_body = f"""
+        🔍 Mango Disease Detection Result
+        
+        📄 File Name: {filename}
+        ⏰ Detection Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
+        
+        📊 PREDICTION RESULTS:
+        """
+        
+        for i, result in enumerate(prediction_results, 1):
+            label = result['label']
+            details = result['details']
+            
+            email_body += f"""
+            🎯 Result {i}:
+            Disease: {label}
+            
+            📝 Explanation: {details['explanation']}
+            💧 Water Requirements: {details['water']}
+            🌱 Fertilizer: {details['fertilizer']}
+            💊 Medicine: {', '.join(details['medicine'])}
+            🌿 Organic Medicine: {', '.join(details['organic_medicine'])}
+            🛡️ Prevention: {details['prevention']}
+            {'='*50}
+            """
+        
+        msg.body = email_body
+        
+        # Attach the uploaded image if available
+        if image_path and os.path.exists(image_path):
+            with open(image_path, 'rb') as img_file:
+                msg.attach(filename, "image/jpeg", img_file.read())
+        
+        mail.send(msg)
+        print("✅ Prediction result email sent successfully!")
+        
+    except Exception as e:
+        print("❌ Error sending prediction result email:", e)
+
 # === Routes ===
 @app.route('/')
 def index():
@@ -143,6 +190,9 @@ def predict_image():
         "organic_medicine": d.get("organic_medicine", ["N/A"]),
         "prevention": d.get("prevention", "N/A")
     }}]
+
+    # Send prediction result to email
+    send_prediction_result_email(filename, info, path)
 
     return render_template('index.html', multi_predictions=info, image_url=url_for('static', filename='uploads/'+filename))
 
@@ -200,6 +250,9 @@ def predict_video():
             "organic_medicine": d.get("organic_medicine", ["N/A"]),
             "prevention": d.get("prevention", "N/A")
         }})
+
+    # Send video prediction result to email
+    send_prediction_result_email(name, info)
 
     return render_template('index.html', multi_predictions=info, image_url=None)
 

@@ -1,170 +1,170 @@
 {
   "Sooty Mould": {
-    "fertilizer": "Balanced NPK fertilizer",
+    "fertilizer": "Balanced NPK fertilizer (10:10:10)",
     "water": "70%",
-    "medicine": ["Fungicide spray"],
-    "organic_medicine": ["Neem oil spray"],
-    "prevention": "Avoid excessive nitrogen; prune infected branches."
+    "medicine": ["Carbendazim 0.1%", "Hexaconazole 0.2%", "Chlorothalonil 0.2%"],
+    "organic_medicine": ["Neem oil spray (5ml/L)", "Cow urine solution (10%)", "Baking soda spray (5g/L)"],
+    "prevention": "Control sap-sucking insects, improve air circulation, avoid excessive nitrogen fertilization"
   },
   "Stem End Rot": {
-    "fertilizer": "Potassium-rich fertilizer",
+    "fertilizer": "Potassium-rich fertilizer (0:0:50)",
     "water": "75%",
-    "medicine": ["Carbendazim"],
-    "organic_medicine": ["Compost tea spray"],
-    "prevention": "Ensure good drainage and proper post-harvest handling."
+    "medicine": ["Carbendazim 0.1%", "Thiophanate-methyl 0.1%", "Mancozeb 0.2%"],
+    "organic_medicine": ["Trichoderma viride powder", "Garlic extract spray", "Compost tea spray"],
+    "prevention": "Proper post-harvest handling, good orchard drainage, pre-harvest calcium sprays"
   },
   "White Scale": {
-    "fertilizer": "Balanced NPK",
+    "fertilizer": "Balanced NPK (20:20:20)",
     "water": "80%",
-    "medicine": ["Insecticidal soap"],
-    "organic_medicine": ["Neem oil"],
-    "prevention": "Regular monitoring; remove infested branches."
+    "medicine": ["Imidacloprid 0.05%", "Chlorpyrifos 0.05%", "Diafenthiuron 0.1%"],
+    "organic_medicine": ["Neem oil (5ml/L) + soap", "Aloe vera extract", "Tobacco decoction"],
+    "prevention": "Regular monitoring, prune infested branches, encourage natural predators like ladybugs"
   },
   "Powdery Mildew": {
     "fertilizer": "Sulfur-based fertilizer",
     "water": "60%",
-    "medicine": ["Sulfur fungicide"],
-    "organic_medicine": ["Neem extract spray"],
-    "prevention": "Avoid dense planting; improve air circulation."
+    "medicine": ["Wettable sulfur 0.2%", "Hexaconazole 0.1%", "Myclobutanil 0.1%"],
+    "organic_medicine": ["Milk spray (10%)", "Baking soda (5g/L)", "Neem extract (5%)"],
+    "prevention": "Avoid dense planting, improve air circulation, remove infected plant parts"
   },
   "Red Rust": {
-    "fertilizer": "Potassium-rich fertilizer",
+    "fertilizer": "Potassium-rich fertilizer (12:12:17)",
     "water": "65%",
-    "medicine": ["Copper fungicide"],
-    "organic_medicine": ["Neem oil spray"],
-    "prevention": "Prune affected parts; avoid waterlogging."
+    "medicine": ["Copper oxychloride 0.3%", "Mancozeb 0.2%", "Zineb 0.2%"],
+    "organic_medicine": ["Neem oil spray", "Aloe vera juice spray", "Garlic-chilli extract"],
+    "prevention": "Prune affected parts, avoid waterlogging, maintain proper tree spacing"
   },
   "Shoot Borer": {
-    "fertilizer": "Balanced NPK",
+    "fertilizer": "Balanced NPK (19:19:19)",
     "water": "70%",
-    "medicine": ["Lambda-cyhalothrin"],
-    "organic_medicine": ["Neem cake"],
-    "prevention": "Regular pruning and monitoring."
+    "medicine": ["Lambda-cyhalothrin 0.005%", "Chlorpyrifos 0.05%", "Carbaryl 0.2%"],
+    "organic_medicine": ["Neem cake application", "Karanj oil spray", "Tobacco extract"],
+    "prevention": "Regular pruning, destroy infested shoots, use light traps"
   },
   "Shoot Webber Orthaga exvinacea(LEAF FEEDERS)": {
-    "fertilizer": "Balanced NPK",
+    "fertilizer": "Balanced NPK (20:20:20)",
     "water": "70%",
-    "medicine": ["Bacillus thuringiensis spray"],
-    "organic_medicine": ["Neem oil spray"],
-    "prevention": "Remove affected shoots early."
+    "medicine": ["Bacillus thuringiensis 0.5%", "Spinosad 0.02%", "Emamectin benzoate 0.002%"],
+    "organic_medicine": ["Neem oil (5ml/L)", "Karanj oil spray", "Five-leaf extract"],
+    "prevention": "Remove affected shoots early, maintain orchard cleanliness, use pheromone traps"
   },
   "Mango Malformation": {
     "fertilizer": "Zinc and Boron supplements",
     "water": "80%",
-    "medicine": ["Cytokinin sprays"],
-    "organic_medicine": ["Neem oil"],
-    "prevention": "Remove malformed shoots and maintain hygiene."
+    "medicine": ["Cytokinin sprays", "Azoxystrobin 0.1%", "Carbendazim 0.1%"],
+    "organic_medicine": ["Neem oil", "Panchagavya spray", "Vermiwash"],
+    "prevention": "Remove malformed shoots, maintain hygiene, balanced nutrition"
   },
   "Mango Nut Weevil, Sternochaetus mangiferae": {
-    "fertilizer": "Balanced NPK",
+    "fertilizer": "Balanced NPK (15:15:15)",
     "water": "70%",
-    "medicine": ["Malathion"],
-    "organic_medicine": ["Neem seed extract"],
-    "prevention": "Bagging fruits and proper sanitation."
+    "medicine": ["Malathion 0.1%", "Deltamethrin 0.002%", "Fipronil 0.01%"],
+    "organic_medicine": ["Neem seed extract", "Castor cake application", "Tobacco decoction"],
+    "prevention": "Bagging fruits, proper sanitation, soil cultivation around trees"
   },
   "Mango Stem Borer": {
-    "fertilizer": "Balanced NPK",
+    "fertilizer": "Balanced NPK (17:17:17)",
     "water": "70%",
-    "medicine": ["Chlorpyrifos"],
-    "organic_medicine": ["Neem cake"],
-    "prevention": "Remove and destroy infested branches."
+    "medicine": ["Chlorpyrifos 0.05%", "Dichlorvos 0.1%", "Carbofuran granules"],
+    "organic_medicine": ["Neem cake", "Karanj cake", "Castor cake application"],
+    "prevention": "Remove and destroy infested branches, apply coal tar on wounds, maintain tree health"
   },
   "Leaf Twisting Weevil": {
-    "fertilizer": "Balanced NPK",
+    "fertilizer": "Balanced NPK (16:16:16)",
     "water": "70%",
-    "medicine": ["Carbaryl"],
-    "organic_medicine": ["Neem oil spray"],
-    "prevention": "Regular monitoring and pruning affected leaves."
+    "medicine": ["Carbaryl 0.2%", "Quinalphos 0.05%", "Lambda-cyhalothrin 0.005%"],
+    "organic_medicine": ["Neem oil spray", "Garlic-chilli spray", "Aloe vera extract"],
+    "prevention": "Regular monitoring, prune affected leaves, maintain orchard hygiene"
   },
   "Loopers, Thalassodes quadraria, Chloroclystis sp": {
-    "fertilizer": "Balanced NPK",
+    "fertilizer": "Balanced NPK (18:18:18)",
     "water": "70%",
-    "medicine": ["Bacillus thuringiensis spray"],
-    "organic_medicine": ["Neem oil"],
-    "prevention": "Remove infested leaves and use pheromone traps."
+    "medicine": ["Bacillus thuringiensis 0.5%", "Emamectin benzoate 0.002%", "Chlorantraniliprole 0.015%"],
+    "organic_medicine": ["Neem oil", "Tobacco decoction", "Karanj oil"],
+    "prevention": "Remove infested leaves, use pheromone traps, encourage natural predators"
   },
   "Mango Bud Mite": {
-    "fertilizer": "Balanced NPK",
+    "fertilizer": "Balanced NPK (20:20:20)",
     "water": "70%",
-    "medicine": ["Dicofol"],
-    "organic_medicine": ["Neem oil spray"],
-    "prevention": "Prune affected buds and maintain hygiene."
+    "medicine": ["Dicofol 0.1%", "Propargite 0.1%", "Fenazaquin 0.1%"],
+    "organic_medicine": ["Neem oil spray", "Sulfur dust", "Garlic extract"],
+    "prevention": "Prune affected buds, maintain hygiene, avoid water stress"
   },
   "Mango Hoppers": {
-    "fertilizer": "Balanced NPK",
+    "fertilizer": "Balanced NPK (15:15:15)",
     "water": "70%",
-    "medicine": ["Imidacloprid"],
-    "organic_medicine": ["Neem oil spray"],
-    "prevention": "Regular monitoring and spraying during flowering."
+    "medicine": ["Imidacloprid 0.05%", "Thiamethoxam 0.05%", "Acetamiprid 0.2%"],
+    "organic_medicine": ["Neem oil spray", "Fish oil rosin soap", "Tobacco extract"],
+    "prevention": "Regular monitoring, spray during flowering, maintain orchard cleanliness"
   },
   "Mango Leaf Gall Midge": {
-    "fertilizer": "Balanced NPK",
+    "fertilizer": "Balanced NPK (16:16:16)",
     "water": "70%",
-    "medicine": ["Malathion"],
-    "organic_medicine": ["Neem extract"],
-    "prevention": "Remove galls and maintain tree hygiene."
+    "medicine": ["Malathion 0.1%", "Dimethoate 0.05%", "Monocrotophos 0.05%"],
+    "organic_medicine": ["Neem extract", "Karanj oil", "Aloe vera spray"],
+    "prevention": "Remove galls, maintain tree hygiene, destroy fallen leaves"
   },
   "Hairy Caterpillars, Euproctis fraterna, Prothesia scintillans": {
-    "fertilizer": "Balanced NPK",
+    "fertilizer": "Balanced NPK (19:19:19)",
     "water": "70%",
-    "medicine": ["Quinalphos"],
-    "organic_medicine": ["Neem oil spray"],
-    "prevention": "Handpick larvae and use light traps."
+    "medicine": ["Quinalphos 0.05%", "Chlorpyrifos 0.05%", "Deltamethrin 0.002%"],
+    "organic_medicine": ["Neem oil spray", "Bt formulation", "Tobacco decoction"],
+    "prevention": "Handpick larvae, use light traps, maintain biological control agents"
   },
   "Healthy": {
-    "fertilizer": "Balanced NPK",
+    "fertilizer": "Balanced NPK (20:20:20)",
     "water": "70%",
-    "medicine": ["N/A"],
-    "organic_medicine": ["N/A"],
-    "prevention": "Maintain proper nutrition and irrigation."
+    "medicine": ["Preventive fungicide spray", "Micronutrient spray", "Growth promoters"],
+    "organic_medicine": ["Panchagavya spray", "Vermiwash", "Compost tea"],
+    "prevention": "Maintain proper nutrition, regular irrigation, periodic health monitoring"
   },
   "Inflorescence Midge": {
-    "fertilizer": "Balanced NPK",
+    "fertilizer": "Balanced NPK (15:15:15)",
     "water": "70%",
-    "medicine": ["Malathion"],
-    "organic_medicine": ["Neem oil"],
-    "prevention": "Prune affected inflorescences."
+    "medicine": ["Malathion 0.1%", "Dimethoate 0.05%", "Carbaryl 0.2%"],
+    "organic_medicine": ["Neem oil", "Garlic extract", "Tobacco decoction"],
+    "prevention": "Prune affected inflorescences, maintain orchard sanitation, timely sprays"
   },
   "Aphids (Toxoptera odinae)": {
-    "fertilizer": "Balanced NPK",
+    "fertilizer": "Balanced NPK (18:18:18)",
     "water": "70%",
-    "medicine": ["Imidacloprid"],
-    "organic_medicine": ["Neem oil spray"],
-    "prevention": "Regular monitoring and encourage natural predators."
+    "medicine": ["Imidacloprid 0.05%", "Acetamiprid 0.2%", "Thiamethoxam 0.05%"],
+    "organic_medicine": ["Neem oil spray", "Soap solution", "Garlic-chilli extract"],
+    "prevention": "Regular monitoring, encourage natural predators, maintain balanced fertilization"
   },
   "Bark Borer (Indarbela tetraonis)": {
-    "fertilizer": "Balanced NPK",
+    "fertilizer": "Balanced NPK (17:17:17)",
     "water": "70%",
-    "medicine": ["Chlorpyrifos"],
-    "organic_medicine": ["Neem cake"],
-    "prevention": "Remove infested bark and maintain hygiene."
+    "medicine": ["Chlorpyrifos 0.05%", "Dichlorvos 0.1%", "Carbaryl 0.2%"],
+    "organic_medicine": ["Neem cake", "Karanj cake", "Castor cake application"],
+    "prevention": "Remove infested bark, maintain hygiene, apply protective coatings on trunk"
   },
   "Flower Webber, Eublemma versicolor": {
-    "fertilizer": "Balanced NPK",
+    "fertilizer": "Balanced NPK (16:16:16)",
     "water": "70%",
-    "medicine": ["Bacillus thuringiensis"],
-    "organic_medicine": ["Neem oil"],
-    "prevention": "Remove webbed flowers and destroy them."
+    "medicine": ["Bacillus thuringiensis 0.5%", "Spinosad 0.02%", "Emamectin benzoate 0.002%"],
+    "organic_medicine": ["Neem oil", "Tobacco extract", "Karanj oil"],
+    "prevention": "Remove webbed flowers, destroy them properly, maintain orchard cleanliness"
   },
   "Fruit Fly, Bactrocera (Dacus) dorsalis": {
-    "fertilizer": "Balanced NPK",
+    "fertilizer": "Balanced NPK (15:15:15)",
     "water": "70%",
-    "medicine": ["Protein bait spray"],
-    "organic_medicine": ["Sticky traps"],
-    "prevention": "Bag fruits and destroy fallen fruits."
+    "medicine": ["Protein bait spray", "Malathion 0.1%", "Deltamethrin 0.002%"],
+    "organic_medicine": ["Sticky traps", "Neem cake application", "Fermented fruit traps"],
+    "prevention": "Bag fruits, destroy fallen fruits, use methyl eugenol traps"
   },
   "Grey Blight": {
-    "fertilizer": "Balanced NPK",
+    "fertilizer": "Balanced NPK (20:20:20)",
     "water": "70%",
-    "medicine": ["Mancozeb spray"],
-    "organic_medicine": ["Neem oil spray"],
-    "prevention": "Remove infected leaves and improve air circulation."
+    "medicine": ["Mancozeb 0.2%", "Carbendazim 0.1%", "Copper oxychloride 0.3%"],
+    "organic_medicine": ["Neem oil spray", "Baking soda solution", "Garlic extract"],
+    "prevention": "Remove infected leaves, improve air circulation, avoid overhead irrigation"
   },
   "Anthracnose": {
-    "fertilizer": "Balanced NPK",
+    "fertilizer": "Balanced NPK with micronutrients",
     "water": "70%",
-    "medicine": ["Copper oxychloride"],
-    "organic_medicine": ["Neem oil"],
-    "prevention": "Prune affected parts and spray fungicides during flowering."
+    "medicine": ["Copper oxychloride 0.3%", "Carbendazim 0.1%", "Hexaconazole 0.1%"],
+    "organic_medicine": ["Neem oil", "Baking soda spray", "Garlic extract"],
+    "prevention": "Prune affected parts, spray fungicides during flowering, improve air circulation"
   }
 }
