@@ -55,8 +55,45 @@ transform = transforms.Compose([
 def normalize_key(name):
     return ''.join(e.lower() for e in name.strip() if e.isalnum())
 
-with open(DISEASE_JSON_PATH, 'r') as f:
-    raw_disease_details = json.load(f)
+raw_disease_details = None
+_used_encoding = None
+
+# Try utf-8 first, then fall back to cp1252 / latin-1 if needed
+try:
+    with open(DISEASE_JSON_PATH, 'r', encoding='utf-8') as f:
+        raw_disease_details = json.load(f)
+        _used_encoding = 'utf-8'
+except UnicodeDecodeError:
+    try:
+        # try with cp1252 (windows default) or latin-1 as a permissive fallback
+        with open(DISEASE_JSON_PATH, 'r', encoding='cp1252') as f:
+            raw_disease_details = json.load(f)
+            _used_encoding = 'cp1252'
+    except Exception:
+        try:
+            with open(DISEASE_JSON_PATH, 'r', encoding='latin-1') as f:
+                raw_disease_details = json.load(f)
+                _used_encoding = 'latin-1'
+        except Exception as e:
+            print(f"❌ Failed to load {DISEASE_JSON_PATH}: {e}")
+            raw_disease_details = {}
+
+except FileNotFoundError:
+    print(f"❌ Disease info file not found: {DISEASE_JSON_PATH}")
+    raw_disease_details = {}
+except json.JSONDecodeError as e:
+    print(f"❌ JSON decode error while reading {DISEASE_JSON_PATH}: {e}")
+    raw_disease_details = {}
+except Exception as e:
+    print(f"❌ Unexpected error loading {DISEASE_JSON_PATH}: {e}")
+    raw_disease_details = {}
+
+if _used_encoding:
+    print(f"ℹ️ Loaded {DISEASE_JSON_PATH} using encoding: {_used_encoding}")
+
+# Ensure we have a dict (avoid crash if file was empty)
+if not isinstance(raw_disease_details, dict):
+    raw_disease_details = {}
 
 disease_details = {normalize_key(k): v for k, v in raw_disease_details.items()}
 
@@ -146,6 +183,52 @@ def send_prediction_result_email(filename, prediction_results, image_path=None):
     except Exception as e:
         print("❌ Error sending prediction result email:", e)
 
+# === Extract details from new JSON format ===
+def extract_disease_details(disease_data, label):
+    """Extract disease details from the new JSON format with both English and Tamil keys"""
+    if not disease_data:
+        return {
+            "explanation": f"Detected {label}.",
+            "water": "N/A",
+            "fertilizer": "N/A", 
+            "medicine": ["N/A"],
+            "organic_medicine": ["N/A"],
+            "prevention": "N/A"
+        }
+    
+    # Extract English details
+    explanation = disease_data.get("explanation", f"Detected {label}.")
+    water = disease_data.get("water", "N/A")
+    fertilizer = disease_data.get("fertilizer", "N/A")
+    medicine = disease_data.get("medicine", ["N/A"])
+    organic_medicine = disease_data.get("organic_medicine", ["N/A"])
+    prevention = disease_data.get("prevention", "N/A")
+    
+    # Extract Tamil details
+    tamil_explanation = disease_data.get("விளக்கம்", explanation)
+    tamil_water = disease_data.get("நீர்", water)
+    tamil_fertilizer = disease_data.get("உரம்", fertilizer)
+    tamil_medicine = disease_data.get("மருந்து", medicine)
+    tamil_organic_medicine = disease_data.get("கரிம மருந்து", organic_medicine)
+    tamil_prevention = disease_data.get("தடுப்பு முறைகள்", prevention)
+    
+    return {
+        "explanation": explanation,
+        "water": water,
+        "fertilizer": fertilizer,
+        "medicine": medicine,
+        "organic_medicine": organic_medicine,
+        "prevention": prevention,
+        "tamil_details": {
+            "விளக்கம்": tamil_explanation,
+            "நீர்": tamil_water,
+            "உரம்": tamil_fertilizer,
+            "மருந்து": tamil_medicine,
+            "கரிம மருந்து": tamil_organic_medicine,
+            "தடுப்பு முறைகள்": tamil_prevention
+        }
+    }
+
 # === Routes ===
 @app.route('/')
 def index():
@@ -182,14 +265,13 @@ def predict_image():
     label = "Healthy" if best_label.lower() == "healthy" else best_label
     d = disease_details.get(normalize_key(label), {})
 
-    info = [{"label": label, "details": {
-        "explanation": d.get("explanation", f"Detected {label}."),
-        "water": d.get("water", "N/A"),
-        "fertilizer": d.get("fertilizer", "N/A"),
-        "medicine": d.get("medicine", ["N/A"]),
-        "organic_medicine": d.get("organic_medicine", ["N/A"]),
-        "prevention": d.get("prevention", "N/A")
-    }}]
+    # Use the new function to extract details from JSON
+    disease_info = extract_disease_details(d, label)
+    
+    info = [{
+        "label": label, 
+        "details": disease_info
+    }]
 
     # Send prediction result to email
     send_prediction_result_email(filename, info, path)
@@ -242,14 +324,12 @@ def predict_video():
     info = []
     for l in mc:
         d = disease_details.get(normalize_key(l), {})
-        info.append({"label": l, "details": {
-            "explanation": d.get("explanation", f"Detected {l}."),
-            "water": d.get("water", "N/A"),
-            "fertilizer": d.get("fertilizer", "N/A"),
-            "medicine": d.get("medicine", ["N/A"]),
-            "organic_medicine": d.get("organic_medicine", ["N/A"]),
-            "prevention": d.get("prevention", "N/A")
-        }})
+        # Use the new function to extract details from JSON
+        disease_info = extract_disease_details(d, l)
+        info.append({
+            "label": l, 
+            "details": disease_info
+        })
 
     # Send video prediction result to email
     send_prediction_result_email(name, info)

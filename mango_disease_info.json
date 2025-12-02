@@ -1,170 +1,387 @@
 {
   "Sooty Mould": {
+    "type": "fungal",
     "fertilizer": "Balanced NPK fertilizer (10:10:10)",
     "water": "70%",
-    "medicine": ["Carbendazim 0.1%", "Hexaconazole 0.2%", "Chlorothalonil 0.2%"],
-    "organic_medicine": ["Neem oil spray (5ml/L)", "Cow urine solution (10%)", "Baking soda spray (5g/L)"],
-    "prevention": "Control sap-sucking insects, improve air circulation, avoid excessive nitrogen fertilization"
+    "medicine": ["Carbendazim 0.1% (1g/L water)", "Hexaconazole 0.2% (2ml/L water)", "Chlorothalonil 0.2% (2g/L water)"],
+    "organic_medicine": ["Neem oil spray (5ml/L water)", "Cow urine solution (10% - 100ml/L water)", "Baking soda spray (5g/L water)"],
+    "prevention": "Control sap-sucking insects, improve air circulation, avoid excessive nitrogen fertilization",
+    " விளக்கம்": "புகை பூஞ்சை(Sooty Mould)",
+    "வகை": "பூஞ்சை",
+    "உரம்": "சமநிலை NPK உரம் (10:10:10)",
+    "நீர்": "70%",
+    "மருந்து": ["கார்பெண்டாசிம் 0.1% (1g/L நீர்)", "ஹெக்சாகோனசோல் 0.2% (2ml/L நீர்)", "குளோரோத்தலோனில் 0.2% (2g/L நீர்)"],
+    "கரிம மருந்து": ["வேப்ப எண்ணெய் தெளிப்பு (5ml/L நீர்)", "பசு சிறுநீர் கரைசல் (10% - 100ml/L நீர்)", "பேக்கிங் சோடா தெளிப்பு (5g/L நீர்)"],
+    "தடுப்பு முறைகள்": "சாறு உறிஞ்சும் பூச்சிகளை கட்டுப்படுத்துதல், காற்று சுழற்சியை மேம்படுத்துதல், அதிக நைட்ரஜன் உரத்தை தவிர்த்தல்"
+
   },
   "Stem End Rot": {
+    "type": "fungal",
     "fertilizer": "Potassium-rich fertilizer (0:0:50)",
     "water": "75%",
-    "medicine": ["Carbendazim 0.1%", "Thiophanate-methyl 0.1%", "Mancozeb 0.2%"],
-    "organic_medicine": ["Trichoderma viride powder", "Garlic extract spray", "Compost tea spray"],
-    "prevention": "Proper post-harvest handling, good orchard drainage, pre-harvest calcium sprays"
+    "medicine": ["Carbendazim 0.1% (1g/L water)", "Thiophanate-methyl 0.1% (1g/L water)", "Mancozeb 0.2% (2g/L water)"],
+    "organic_medicine": ["Trichoderma viride powder (10g/tree)", "Garlic extract spray (50g crushed garlic/L water)", "Compost tea spray (200ml/L water)"],
+    "prevention": "Proper post-harvest handling, good orchard drainage, pre-harvest calcium sprays",
+    "தண்டு முனை அழுகல்": "(Stem End Rot)",
+    "வகை": "பூஞ்சை",
+    "உரம்": "பொட்டாசியம் நிறைந்த உரம் (0:0:50)",
+    "நீர்": "75%",
+    "மருந்து": ["கார்பெண்டாசிம் 0.1% (1g/L நீர்)", "தையோபனேட்-மெத்தில் 0.1% (1g/L நீர்)", "மேன்கோசெப் 0.2% (2g/L நீர்)"],
+    "கரிம மருந்து": ["ட்ரைக்கோடெர்மா வைரிட் தூள் (10g/மரம்)", "பூண்டு சாறு தெளிப்பு (50g நறுக்கிய பூண்டு/L நீர்)", "கம்போஸ்ட் தேநீர் தெளிப்பு (200ml/L நீர்)"],
+    "தடுப்பு முறைகள்": "அறுவடைக்குப் பின் சரியான கையாளுதல், நல்ல தோட்ட வடிகால், அறுவடைக்கு முன் கால்சியம் தெளிப்பு"
+
   },
   "White Scale": {
+    "type": "pest",
     "fertilizer": "Balanced NPK (20:20:20)",
     "water": "80%",
-    "medicine": ["Imidacloprid 0.05%", "Chlorpyrifos 0.05%", "Diafenthiuron 0.1%"],
-    "organic_medicine": ["Neem oil (5ml/L) + soap", "Aloe vera extract", "Tobacco decoction"],
-    "prevention": "Regular monitoring, prune infested branches, encourage natural predators like ladybugs"
+    "medicine": ["Imidacloprid 0.05% (0.5ml/L water)", "Chlorpyrifos 0.05% (0.5ml/L water)", "Diafenthiuron 0.1% (1ml/L water)"],
+    "organic_medicine": ["Neem oil (5ml/L water) + soap (5g/L)", "Aloe vera extract (100ml/L water)", "Tobacco decoction (50g tobacco/L water)"],
+    "prevention": "Regular monitoring, prune infested branches, encourage natural predators like ladybugs",
+    "வெள்ளை ஓடு பூச்சி": "(White Scale)",
+    "வகை": "பூச்சி",
+    "உரம்": "சமநிலை NPK (20:20:20)",
+    "நீர்": "80%",
+    "மருந்து": ["இமிடாக்லோப்ரிட் 0.05% (0.5ml/L நீர்)", "குளோர்பைரிஃபோஸ் 0.05% (0.5ml/L நீர்)", "டையாஃபெந்தியூரோன் 0.1% (1ml/L நீர்)"],
+    "கரிம மருந்து": ["வேப்ப எண்ணெய் (5ml/L நீர்) + சோப்பு (5g/L)", "கற்றாழை சாறு (100ml/L நீர்)", "புகையிலை கஷாயம் (50g புகையிலை/L நீர்)"],
+    "தடுப்பு முறைகள்": "தொடர் கண்காணிப்பு, பாதிக்கப்பட்ட கிளைகளை கத்தரித்தல், வண்ணத்துப் பூச்சிகள் போன்ற இயற்கை வேட்டையாடிகளை ஊக்குவித்தல்"
+
   },
   "Powdery Mildew": {
+    "type": "fungal",
     "fertilizer": "Sulfur-based fertilizer",
     "water": "60%",
-    "medicine": ["Wettable sulfur 0.2%", "Hexaconazole 0.1%", "Myclobutanil 0.1%"],
-    "organic_medicine": ["Milk spray (10%)", "Baking soda (5g/L)", "Neem extract (5%)"],
-    "prevention": "Avoid dense planting, improve air circulation, remove infected plant parts"
+    "medicine": ["Wettable sulfur 0.2% (2g/L water)", "Hexaconazole 0.1% (1ml/L water)", "Myclobutanil 0.1% (1g/L water)"],
+    "organic_medicine": ["Milk spray (10% - 100ml milk/L water)", "Baking soda (5g/L water)", "Neem extract (5% - 50ml/L water)"],
+    "prevention": "Avoid dense planting, improve air circulation, remove infected plant parts",
+    "தூள் துரு": "(Powdery Mildew)",
+    "வகை": "பூஞ்சை",
+    "உரம்": "கந்தக அடிப்படையிலான உரம்",
+    "நீர்": "60%",
+    "மருந்து": ["நீரில் கரையக்கூடிய கந்தகம் 0.2% (2g/L நீர்)", "ஹெக்சாகோனசோல் 0.1% (1ml/L நீர்)", "மைக்ளோபுடானில் 0.1% (1g/L நீர்)"],
+    "கரிம மருந்து": ["பால் தெளிப்பு (10% - 100ml பால்/L நீர்)", "பேக்கிங் சோடா (5g/L நீர்)", "வேப்ப மர சாறு (5% - 50ml/L நீர்)"],
+    "தடுப்பு முறைகள்": "அடர்த்தியான நடவை தவிர்த்தல், காற்று சுழற்சியை மேம்படுத்துதல், பாதிக்கப்பட்ட தாவர பாகங்களை அகற்றுதல்"
+
   },
   "Red Rust": {
+    "type": "fungal",
     "fertilizer": "Potassium-rich fertilizer (12:12:17)",
     "water": "65%",
-    "medicine": ["Copper oxychloride 0.3%", "Mancozeb 0.2%", "Zineb 0.2%"],
-    "organic_medicine": ["Neem oil spray", "Aloe vera juice spray", "Garlic-chilli extract"],
-    "prevention": "Prune affected parts, avoid waterlogging, maintain proper tree spacing"
+    "medicine": ["Copper oxychloride 0.3% (3g/L water)", "Mancozeb 0.2% (2g/L water)", "Zineb 0.2% (2g/L water)"],
+    "organic_medicine": ["Neem oil spray (5ml/L water)", "Aloe vera juice spray (100ml/L water)", "Garlic-chilli extract (50g garlic + 20g chilli/L water)"],
+    "prevention": "Prune affected parts, avoid waterlogging, maintain proper tree spacing",
+    "சிவப்பு துரு": "(Red Rust)",
+    "வகை": "பூஞ்சை",
+    "உரம்": "பொட்டாசியம் நிறைந்த உரம் (12:12:17)",
+    "நீர்": "65%",
+    "மருந்து": ["காப்பர் ஆக்சிக்ளோரைடு 0.3% (3g/L நீர்)", "மேன்கோசெப் 0.2% (2g/L நீர்)", "சினெப் 0.2% (2g/L நீர்)"],
+    "கரிம மருந்து": ["வேப்ப எண்ணெய் தெளிப்பு (5ml/L நீர்)", "கற்றாழை சாறு தெளிப்பு (100ml/L நீர்)", "பூண்டு-மிளகாய் சாறு (50g பூண்டு + 20g மிளகாய்/L நீர்)"],
+    "தடுப்பு முறைகள்": "பாதிக்கப்பட்ட பகுதிகளை கத்தரித்தல், நீர் தேங்குவதை தவிர்த்தல், மரங்களுக்கு இடையே சரியான இடைவெளி வைத்தல்"
+
   },
   "Shoot Borer": {
+    "type": "pest",
     "fertilizer": "Balanced NPK (19:19:19)",
     "water": "70%",
-    "medicine": ["Lambda-cyhalothrin 0.005%", "Chlorpyrifos 0.05%", "Carbaryl 0.2%"],
-    "organic_medicine": ["Neem cake application", "Karanj oil spray", "Tobacco extract"],
-    "prevention": "Regular pruning, destroy infested shoots, use light traps"
+    "medicine": ["Lambda-cyhalothrin 0.005% (0.5ml/L water)", "Chlorpyrifos 0.05% (0.5ml/L water)", "Carbaryl 0.2% (2g/L water)"],
+    "organic_medicine": ["Neem cake application (2kg/tree)", "Karanj oil spray (5ml/L water)", "Tobacco extract (50g tobacco/L water)"],
+    "prevention": "Regular pruning, destroy infested shoots, use light traps",
+    "தளிர் துளைப்பான்": "(Shoot Borer)",
+    "வகை": "பூச்சி",
+    "உரம்": "சமநிலை NPK (19:19:19)",
+    "நீர்": "70%",
+    "மருந்து": ["லாம்டா-சைஹலோத்ரின் 0.005% (0.5ml/L நீர்)", "குளோர்பைரிஃபோஸ் 0.05% (0.5ml/L நீர்)", "கார்பரில் 0.2% (2g/L நீர்)"],
+    "கரிம மருந்து": ["வேப்ப பிண்ணாக்கு பயன்பாடு (2kg/மரம்)", "கரஞ்சு எண்ணெய் தெளிப்பு (5ml/L நீர்)", "புகையிலை சாறு (50g புகையிலை/L நீர்)"],
+    "தடுப்பு முறைகள்": "தொடர் கத்தரித்தல், பாதிக்கப்பட்ட தளிர்களை அழித்தல், ஒளி பொறிகளை பயன்படுத்துதல்"
+
   },
   "Shoot Webber Orthaga exvinacea(LEAF FEEDERS)": {
+    "type": "pest",
     "fertilizer": "Balanced NPK (20:20:20)",
     "water": "70%",
-    "medicine": ["Bacillus thuringiensis 0.5%", "Spinosad 0.02%", "Emamectin benzoate 0.002%"],
-    "organic_medicine": ["Neem oil (5ml/L)", "Karanj oil spray", "Five-leaf extract"],
-    "prevention": "Remove affected shoots early, maintain orchard cleanliness, use pheromone traps"
+    "medicine": ["Bacillus thuringiensis 0.5% (5g/L water)", "Spinosad 0.02% (0.2ml/L water)", "Emamectin benzoate 0.002% (0.2ml/L water)"],
+    "organic_medicine": ["Neem oil (5ml/L water)", "Karanj oil spray (5ml/L water)", "Five-leaf extract (100g leaves/L water)"],
+    "prevention": "Remove affected shoots early, maintain orchard cleanliness, use pheromone traps",
+      "தளிர் வலையன்": "(Shoot Webber)",
+    "வகை": "பூச்சி",
+    "உரம்": "சமநிலை NPK (20:20:20)",
+    "நீர்": "70%",
+    "மருந்து": ["பாசில்லஸ் தூரிஞ்சியன்சிஸ் 0.5% (5g/L நீர்)", "ஸ்பினோசாட் 0.02% (0.2ml/L நீர்)", "எமாமெக்டின் பென்சோயேட் 0.002% (0.2ml/L நீர்)"],
+    "கரிம மருந்து": ["வேப்ப எண்ணெய் (5ml/L நீர்)", "கரஞ்சு எண்ணெய் தெளிப்பு (5ml/L நீர்)", "ஐந்திலை சாறு (100g இலைகள்/L நீர்)"],
+    "தடுப்பு முறைகள்": "பாதிக்கப்பட்ட தளிர்களை விரைவாக அகற்றுதல், தோட்ட சுத்தத்தை பராமரித்தல், ஃபெரோமோன் பொறிகளை பயன்படுத்துதல்"
+
   },
   "Mango Malformation": {
+    "type": "fungal",
     "fertilizer": "Zinc and Boron supplements",
     "water": "80%",
-    "medicine": ["Cytokinin sprays", "Azoxystrobin 0.1%", "Carbendazim 0.1%"],
-    "organic_medicine": ["Neem oil", "Panchagavya spray", "Vermiwash"],
-    "prevention": "Remove malformed shoots, maintain hygiene, balanced nutrition"
+    "medicine": ["Cytokinin sprays (10ppm)", "Azoxystrobin 0.1% (1ml/L water)", "Carbendazim 0.1% (1g/L water)"],
+    "organic_medicine": ["Neem oil (5ml/L water)", "Panchagavya spray (3% - 30ml/L water)", "Vermiwash (200ml/L water)"],
+    "prevention": "Remove malformed shoots, maintain hygiene, balanced nutrition",
+    "மாம்பழ வடிவ மாற்றம்": "(Mango Malformation)",
+    "வகை": "பூஞ்சை",
+    "உரம்": "துத்தநாகம் மற்றும் போரான் சப்ளிமெண்ட்கள்",
+    "நீர்": "80%",
+    "மருந்து": ["சைட்டோகினின் தெளிப்பு (10ppm)", "அசோக்ஸிஸ்ட்ரோபின் 0.1% (1ml/L நீர்)", "கார்பெண்டாசிம் 0.1% (1g/L நீர்)"],
+    "கரிம மருந்து": ["வேப்ப எண்ணெய் (5ml/L நீர்)", "பஞ்சகவ்ய தெளிப்பு (3% - 30ml/L நீர்)", "மழவாஷ் (200ml/L நீர்)"],
+    "தடுப்பு முறைகள்": "வடிவமிழந்த தளிர்களை அகற்றுதல், சுகாதாரத்தை பராமரித்தல், சமச்சீர் ஊட்டச்சத்து"
+
   },
   "Mango Nut Weevil, Sternochaetus mangiferae": {
+    "type": "pest",
     "fertilizer": "Balanced NPK (15:15:15)",
     "water": "70%",
-    "medicine": ["Malathion 0.1%", "Deltamethrin 0.002%", "Fipronil 0.01%"],
-    "organic_medicine": ["Neem seed extract", "Castor cake application", "Tobacco decoction"],
-    "prevention": "Bagging fruits, proper sanitation, soil cultivation around trees"
+    "medicine": ["Malathion 0.1% (1ml/L water)", "Deltamethrin 0.002% (0.2ml/L water)", "Fipronil 0.01% (0.1ml/L water)"],
+    "organic_medicine": ["Neem seed extract (50g seeds/L water)", "Castor cake application (2kg/tree)", "Tobacco decoction (50g tobacco/L water)"],
+    "prevention": "Bagging fruits, proper sanitation, soil cultivation around trees",
+    "மாம்பழ கொட்டை வண்டு": "(Mango Nut Weevil)",
+    "வகை": "பூச்சி",
+    "உரம்": "சமநிலை NPK (15:15:15)",
+    "நீர்": "70%",
+    "மருந்து": ["மலத்தியோன் 0.1% (1ml/L நீர்)", "டெல்டாமெத்ரின் 0.002% (0.2ml/L நீர்)", "ஃபிப்ரோனில் 0.01% (0.1ml/L நீர்)"],
+    "கரிம மருந்து": ["வேப்ப விதை சாறு (50g விதைகள்/L நீர்)", "ஆமணக்கு பிண்ணாக்கு பயன்பாடு (2kg/மரம்)", "புகையிலை கஷாயம் (50g புகையிலை/L நீர்)"],
+    "தடுப்பு முறைகள்": "பழங்களை மூடுதல், சரியான சுகாதாரம், மரங்களைச் சுற்றியுள்ள மண் வளப்படுத்துதல்"
+
   },
   "Mango Stem Borer": {
+    "type": "pest",
     "fertilizer": "Balanced NPK (17:17:17)",
     "water": "70%",
-    "medicine": ["Chlorpyrifos 0.05%", "Dichlorvos 0.1%", "Carbofuran granules"],
-    "organic_medicine": ["Neem cake", "Karanj cake", "Castor cake application"],
-    "prevention": "Remove and destroy infested branches, apply coal tar on wounds, maintain tree health"
+    "medicine": ["Chlorpyrifos 0.05% (0.5ml/L water)", "Dichlorvos 0.1% (1ml/L water)", "Carbofuran granules (10g/tree)"],
+    "organic_medicine": ["Neem cake (2kg/tree)", "Karanj cake (2kg/tree)", "Castor cake application (2kg/tree)"],
+    "prevention": "Remove and destroy infested branches, apply coal tar on wounds, maintain tree health",
+    "மாம்பழ தண்டு துளைப்பான்": "(Mango Stem Borer)",
+    "வகை": "பூச்சி",
+    "உரம்": "சமநிலை NPK (17:17:17)",
+    "நீர்": "70%",
+    "மருந்து": ["குளோர்பைரிஃபோஸ் 0.05% (0.5ml/L நீர்)", "டைக்ளோர்வோஸ் 0.1% (1ml/L நீர்)", "கார்போஃபுரான் கிரானுல்கள் (10g/மரம்)"],
+    "கரிம மருந்து": ["வேப்ப பிண்ணாக்கு (2kg/மரம்)", "கரஞ்சு பிண்ணாக்கு (2kg/மரம்)", "ஆமணக்கு பிண்ணாக்கு பயன்பாடு (2kg/மரம்)"],
+    "தடுப்பு முறைகள்": "பாதிக்கப்பட்ட கிளைகளை அகற்றி அழித்தல், காயங்களில் நிலக்கரி தார் பூசுதல், மர ஆரோக்கியத்தை பராமரித்தல்"
+
   },
   "Leaf Twisting Weevil": {
+    "type": "pest",
     "fertilizer": "Balanced NPK (16:16:16)",
     "water": "70%",
-    "medicine": ["Carbaryl 0.2%", "Quinalphos 0.05%", "Lambda-cyhalothrin 0.005%"],
-    "organic_medicine": ["Neem oil spray", "Garlic-chilli spray", "Aloe vera extract"],
-    "prevention": "Regular monitoring, prune affected leaves, maintain orchard hygiene"
+    "medicine": ["Carbaryl 0.2% (2g/L water)", "Quinalphos 0.05% (0.5ml/L water)", "Lambda-cyhalothrin 0.005% (0.5ml/L water)"],
+    "organic_medicine": ["Neem oil spray (5ml/L water)", "Garlic-chilli spray (50g garlic + 20g chilli/L water)", "Aloe vera extract (100ml/L water)"],
+    "prevention": "Regular monitoring, prune affected leaves, maintain orchard hygiene",
+    "இலை முறுக்கு வண்டு": "(Leaf Twisting Weevil)",
+    "வகை": "பூச்சி",
+    "உரம்": "சமநிலை NPK (16:16:16)",
+    "நீர்": "70%",
+    "மருந்து": ["கார்பரில் 0.2% (2g/L நீர்)", "குவினால்ஃபோஸ் 0.05% (0.5ml/L நீர்)", "லாம்டா-சைஹலோத்ரின் 0.005% (0.5ml/L நீர்)"],
+    "கரிம மருந்து": ["வேப்ப எண்ணெய் தெளிப்பு (5ml/L நீர்)", "பூண்டு-மிளகாய் தெளிப்பு (50g பூண்டு + 20g மிளகாய்/L நீர்)", "கற்றாழை சாறு (100ml/L நீர்)"],
+    "தடுப்பு முறைகள்": "தொடர் கண்காணிப்பு, பாதிக்கப்பட்ட இலைகளை கத்தரித்தல், தோட்ட சுகாதாரத்தை பராமரித்தல்"
+
   },
   "Loopers, Thalassodes quadraria, Chloroclystis sp": {
+    "type": "pest",
     "fertilizer": "Balanced NPK (18:18:18)",
     "water": "70%",
-    "medicine": ["Bacillus thuringiensis 0.5%", "Emamectin benzoate 0.002%", "Chlorantraniliprole 0.015%"],
-    "organic_medicine": ["Neem oil", "Tobacco decoction", "Karanj oil"],
-    "prevention": "Remove infested leaves, use pheromone traps, encourage natural predators"
+    "medicine": ["Bacillus thuringiensis 0.5% (5g/L water)", "Emamectin benzoate 0.002% (0.2ml/L water)", "Chlorantraniliprole 0.015% (0.15ml/L water)"],
+    "organic_medicine": ["Neem oil (5ml/L water)", "Tobacco decoction (50g tobacco/L water)", "Karanj oil (5ml/L water)"],
+    "prevention": "Remove infested leaves, use pheromone traps, encourage natural predators",
+    "லூப்பர் புழுக்கள்": "(Loopers)",
+    "வகை": "பூச்சி",
+    "உரம்": "சமநிலை NPK (18:18:18)",
+    "நீர்": "70%",
+    "மருந்து": ["பாசில்லஸ் தூரிஞ்சியன்சிஸ் 0.5% (5g/L நீர்)", "எமாமெக்டின் பென்சோயேட் 0.002% (0.2ml/L நீர்)", "குளோரான்ட்ரானிலிப்ரோல் 0.015% (0.15ml/L நீர்)"],
+    "கரிம மருந்து": ["வேப்ப எண்ணெய் (5ml/L நீர்)", "புகையிலை கஷாயம் (50g புகையிலை/L நீர்)", "கரஞ்சு எண்ணெய் (5ml/L நீர்)"],
+    "தடுப்பு முறைகள்": "பாதிக்கப்பட்ட இலைகளை அகற்றுதல், ஃபெரோமோன் பொறிகளை பயன்படுத்துதல், இயற்கை வேட்டையாடிகளை ஊக்குவித்தல்"
+
   },
   "Mango Bud Mite": {
+    "type": "pest",
     "fertilizer": "Balanced NPK (20:20:20)",
     "water": "70%",
-    "medicine": ["Dicofol 0.1%", "Propargite 0.1%", "Fenazaquin 0.1%"],
-    "organic_medicine": ["Neem oil spray", "Sulfur dust", "Garlic extract"],
-    "prevention": "Prune affected buds, maintain hygiene, avoid water stress"
+    "medicine": ["Dicofol 0.1% (1ml/L water)", "Propargite 0.1% (1ml/L water)", "Fenazaquin 0.1% (1ml/L water)"],
+    "organic_medicine": ["Neem oil spray (5ml/L water)", "Sulfur dust (25g/tree)", "Garlic extract (50g crushed garlic/L water)"],
+    "prevention": "Prune affected buds, maintain hygiene, avoid water stress",
+    "மாம்பழ மொட்டு உண்ணி": "(Mango Bud Mite)",
+    "வகை": "பூச்சி",
+    "உரம்": "சமநிலை NPK (20:20:20)",
+    "நீர்": "70%",
+    "மருந்து": ["டைகோஃபோல் 0.1% (1ml/L நீர்)", "ப்ரோபார்கைட் 0.1% (1ml/L நீர்)", "ஃபெனாசாக்வின் 0.1% (1ml/L நீர்)"],
+    "கரிம மருந்து": ["வேப்ப எண்ணெய் தெளிப்பு (5ml/L நீர்)", "கந்தக தூள் (25g/மரம்)", "பூண்டு சாறு (50g நறுக்கிய பூண்டு/L நீர்)"],
+    "தடுப்பு முறைகள்": "பாதிக்கப்பட்ட மொட்டுகளை கத்தரித்தல், சுகாதாரத்தை பராமரித்தல், நீர் அழுத்தத்தை தவிர்த்தல்"
+
   },
   "Mango Hoppers": {
+    "type": "pest",
     "fertilizer": "Balanced NPK (15:15:15)",
     "water": "70%",
-    "medicine": ["Imidacloprid 0.05%", "Thiamethoxam 0.05%", "Acetamiprid 0.2%"],
-    "organic_medicine": ["Neem oil spray", "Fish oil rosin soap", "Tobacco extract"],
-    "prevention": "Regular monitoring, spray during flowering, maintain orchard cleanliness"
+    "medicine": ["Imidacloprid 0.05% (0.5ml/L water)", "Thiamethoxam 0.05% (0.5ml/L water)", "Acetamiprid 0.2% (2ml/L water)"],
+    "organic_medicine": ["Neem oil spray (5ml/L water)", "Fish oil rosin soap (10g/L water)", "Tobacco extract (50g tobacco/L water)"],
+    "prevention": "Regular monitoring, spray during flowering, maintain orchard cleanliness",
+    "மாம்பழ தாவர உண்ணிகள்": "(Mango Hoppers)",
+    "வகை": "பூச்சி",
+    "உரம்": "சமநிலை NPK (15:15:15)",
+    "நீர்": "70%",
+    "மருந்து": ["இமிடாக்லோப்ரிட் 0.05% (0.5ml/L நீர்)", "தையாமெத்தோக்சாம் 0.05% (0.5ml/L நீர்)", "அசெட்டாமிப்ரிட் 0.2% (2ml/L நீர்)"],
+    "கரிம மருந்து": ["வேப்ப எண்ணெய் தெளிப்பு (5ml/L நீர்)", "மீன் எண்ணெய் ரோசின் சோப்பு (10g/L நீர்)", "புகையிலை சாறு (50g புகையிலை/L நீர்)"],
+    "தடுப்பு முறைகள்": "தொடர் கண்காணிப்பு, மலரும் போது தெளித்தல், தோட்ட சுத்தத்தை பராமரித்தல்"
+
   },
   "Mango Leaf Gall Midge": {
+    "type": "pest",
     "fertilizer": "Balanced NPK (16:16:16)",
     "water": "70%",
-    "medicine": ["Malathion 0.1%", "Dimethoate 0.05%", "Monocrotophos 0.05%"],
-    "organic_medicine": ["Neem extract", "Karanj oil", "Aloe vera spray"],
-    "prevention": "Remove galls, maintain tree hygiene, destroy fallen leaves"
+    "medicine": ["Malathion 0.1% (1ml/L water)", "Dimethoate 0.05% (0.5ml/L water)", "Monocrotophos 0.05% (0.5ml/L water)"],
+    "organic_medicine": ["Neem extract (50ml/L water)", "Karanj oil (5ml/L water)", "Aloe vera spray (100ml/L water)"],
+    "prevention": "Remove galls, maintain tree hygiene, destroy fallen leaves",
+    "மாம்பழ இலை கால் உண்ணி": "(Mango Leaf Gall Midge)",
+    "வகை": "பூச்சி",
+    "உரம்": "சமநிலை NPK (16:16:16)",
+    "நீர்": "70%",
+    "மருந்து": ["மலத்தியோன் 0.1% (1ml/L நீர்)", "டைமெத்தோயேட் 0.05% (0.5ml/L நீர்)", "மோனோக்ரோட்டோஃபோஸ் 0.05% (0.5ml/L நீர்)"],
+    "கரிம மருந்து": ["வேப்ப மர சாறு (50ml/L நீர்)", "கரஞ்சு எண்ணெய் (5ml/L நீர்)", "கற்றாழை தெளிப்பு (100ml/L நீர்)"],
+    "தடுப்பு முறைகள்": "கால் வீக்கங்களை அகற்றுதல், மர சுகாதாரத்தை பராமரித்தல், விழுந்த இலைகளை அழித்தல்"
+
   },
   "Hairy Caterpillars, Euproctis fraterna, Prothesia scintillans": {
+    "type": "pest",
     "fertilizer": "Balanced NPK (19:19:19)",
     "water": "70%",
-    "medicine": ["Quinalphos 0.05%", "Chlorpyrifos 0.05%", "Deltamethrin 0.002%"],
-    "organic_medicine": ["Neem oil spray", "Bt formulation", "Tobacco decoction"],
-    "prevention": "Handpick larvae, use light traps, maintain biological control agents"
+    "medicine": ["Quinalphos 0.05% (0.5ml/L water)", "Chlorpyrifos 0.05% (0.5ml/L water)", "Deltamethrin 0.002% (0.2ml/L water)"],
+    "organic_medicine": ["Neem oil spray (5ml/L water)", "Bt formulation (5g/L water)", "Tobacco decoction (50g tobacco/L water)"],
+    "prevention": "Handpick larvae, use light traps, maintain biological control agents",
+    "ரோமப் புழுக்கள்": "(Hairy Caterpillars)",
+    "வகை": "பூச்சி",
+    "உரம்": "சமநிலை NPK (19:19:19)",
+    "நீர்": "70%",
+    "மருந்து": ["குவினால்ஃபோஸ் 0.05% (0.5ml/L நீர்)", "குளோர்பைரிஃபோஸ் 0.05% (0.5ml/L நீர்)", "டெல்டாமெத்ரின் 0.002% (0.2ml/L நீர்)"],
+    "கரிம மருந்து": ["வேப்ப எண்ணெய் தெளிப்பு (5ml/L நீர்)", "Bt ஃபார்முலேஷன் (5g/L நீர்)", "புகையிலை கஷாயம் (50g புகையிலை/L நீர்)"],
+    "தடுப்பு முறைகள்": "லார்வாக்களை கைவிடுதல், ஒளி பொறிகளை பயன்படுத்துதல், உயிரியல் கட்டுப்பாட்டு முகவர்களை பராமரித்தல்"
+
   },
   "Healthy": {
+    "type": "healthy",
     "fertilizer": "Balanced NPK (20:20:20)",
     "water": "70%",
-    "medicine": ["Preventive fungicide spray", "Micronutrient spray", "Growth promoters"],
-    "organic_medicine": ["Panchagavya spray", "Vermiwash", "Compost tea"],
-    "prevention": "Maintain proper nutrition, regular irrigation, periodic health monitoring"
+    "medicine": ["Preventive fungicide spray (Mancozeb 2g/L water)", "Micronutrient spray (5g/L water)", "Growth promoters (as per manufacturer)"],
+    "organic_medicine": ["Panchagavya spray (3% - 30ml/L water)", "Vermiwash (200ml/L water)", "Compost tea (200ml/L water)"],
+    "prevention": "Maintain proper nutrition, regular irrigation, periodic health monitoring",
+    "ஆரோக்கியமான":  "(Healthy)",
+    "வகை": "ஆரோக்கியமான",
+    "உரம்": "சமநிலை NPK (20:20:20)",
+    "நீர்": "70%",
+    "மருந்து": ["தடுப்பு பூஞ்சைக்கொல்லி தெளிப்பு (மேன்கோசெப் 2g/L நீர்)", "நுண்ணூட்டச்சத்து தெளிப்பு (5g/L நீர்)", "வளர்ச்சி ஊக்கிகள் (உற்பத்தியாளரின் படி)"],
+    "கரிம மருந்து": ["பஞ்சகவ்ய தெளிப்பு (3% - 30ml/L நீர்)", "மழவாஷ் (200ml/L நீர்)", "கம்போஸ்ட் தேநீர் (200ml/L நீர்)"],
+    "தடுப்பு முறைகள்": "சரியான ஊட்டச்சத்தை பராமரித்தல், தொடர் பாசனம், காலமுறை ஆரோக்கிய கண்காணிப்பு"
+
   },
   "Inflorescence Midge": {
+    "type": "pest",
     "fertilizer": "Balanced NPK (15:15:15)",
     "water": "70%",
-    "medicine": ["Malathion 0.1%", "Dimethoate 0.05%", "Carbaryl 0.2%"],
-    "organic_medicine": ["Neem oil", "Garlic extract", "Tobacco decoction"],
-    "prevention": "Prune affected inflorescences, maintain orchard sanitation, timely sprays"
+    "medicine": ["Malathion 0.1% (1ml/L water)", "Dimethoate 0.05% (0.5ml/L water)", "Carbaryl 0.2% (2g/L water)"],
+    "organic_medicine": ["Neem oil (5ml/L water)", "Garlic extract (50g crushed garlic/L water)", "Tobacco decoction (50g tobacco/L water)"],
+    "prevention": "Prune affected inflorescences, maintain orchard sanitation, timely sprays",
+    "பூக்கொத்து உண்ணி": "(Inflorescence Midge)",
+    "வகை": "பூச்சி",
+    "உரம்": "சமநிலை NPK (15:15:15)",
+    "நீர்": "70%",
+    "மருந்து": ["மலத்தியோன் 0.1% (1ml/L நீர்)", "டைமெத்தோயேட் 0.05% (0.5ml/L நீர்)", "கார்பரில் 0.2% (2g/L நீர்)"],
+    "கரிம மருந்து": ["வேப்ப எண்ணெய் (5ml/L நீர்)", "பூண்டு சாறு (50g நறுக்கிய பூண்டு/L நீர்)", "புகையிலை கஷாயம் (50g புகையிலை/L நீர்)"],
+    "தடுப்பு முறைகள்": "பாதிக்கப்பட்ட பூக்கொத்துக்களை கத்தரித்தல், தோட்ட சுகாதாரத்தை பராமரித்தல், சரியான நேரத்தில் தெளித்தல்"
+
   },
   "Aphids (Toxoptera odinae)": {
+    "type": "pest",
     "fertilizer": "Balanced NPK (18:18:18)",
     "water": "70%",
-    "medicine": ["Imidacloprid 0.05%", "Acetamiprid 0.2%", "Thiamethoxam 0.05%"],
-    "organic_medicine": ["Neem oil spray", "Soap solution", "Garlic-chilli extract"],
-    "prevention": "Regular monitoring, encourage natural predators, maintain balanced fertilization"
+    "medicine": ["Imidacloprid 0.05% (0.5ml/L water)", "Acetamiprid 0.2% (2ml/L water)", "Thiamethoxam 0.05% (0.5ml/L water)"],
+    "organic_medicine": ["Neem oil spray (5ml/L water)", "Soap solution (10g soap/L water)", "Garlic-chilli extract (50g garlic + 20g chilli/L water)"],
+    "prevention": "Regular monitoring, encourage natural predators, maintain balanced fertilization",
+    "அப்பிரிக்கள்": "(Aphids)",
+    "வகை": "பூச்சி",
+    "உரம்": "சமநிலை NPK (18:18:18)",
+    "நீர்": "70%",
+    "மருந்து": ["இமிடாக்லோப்ரிட் 0.05% (0.5ml/L நீர்)", "அசெட்டாமிப்ரிட் 0.2% (2ml/L நீர்)", "தையாமெத்தோக்சாம் 0.05% (0.5ml/L நீர்)"],
+    "கரிம மருந்து": ["வேப்ப எண்ணெய் தெளிப்பு (5ml/L நீர்)", "சோப்புக் கரைசல் (10g சோப்பு/L நீர்)", "பூண்டு-மிளகாய் சாறு (50g பூண்டு + 20g மிளகாய்/L நீர்)"],
+    "தடுப்பு முறைகள்": "தொடர் கண்காணிப்பு, இயற்கை வேட்டையாடிகளை ஊக்குவித்தல், சமச்சீர் உரமிடலை பராமரித்தல்"
+
   },
   "Bark Borer (Indarbela tetraonis)": {
+    "type": "pest",
     "fertilizer": "Balanced NPK (17:17:17)",
     "water": "70%",
-    "medicine": ["Chlorpyrifos 0.05%", "Dichlorvos 0.1%", "Carbaryl 0.2%"],
-    "organic_medicine": ["Neem cake", "Karanj cake", "Castor cake application"],
-    "prevention": "Remove infested bark, maintain hygiene, apply protective coatings on trunk"
+    "medicine": ["Chlorpyrifos 0.05% (0.5ml/L water)", "Dichlorvos 0.1% (1ml/L water)", "Carbaryl 0.2% (2g/L water)"],
+    "organic_medicine": ["Neem cake (2kg/tree)", "Karanj cake (2kg/tree)", "Castor cake application (2kg/tree)"],
+    "prevention": "Remove infested bark, maintain hygiene, apply protective coatings on trunk",
+    "பட்டை துளைப்பான்": "(Bark Borer)",
+    "வகை": "பூச்சி",
+    "உரம்": "சமநிலை NPK (17:17:17)",
+    "நீர்": "70%",
+    "மருந்து": ["குளோர்பைரிஃபோஸ் 0.05% (0.5ml/L நீர்)", "டைக்ளோர்வோஸ் 0.1% (1ml/L நீர்)", "கார்பரில் 0.2% (2g/L நீர்)"],
+    "கரிம மருந்து": ["வேப்ப பிண்ணாக்கு (2kg/மரம்)", "கரஞ்சு பிண்ணாக்கு (2kg/மரம்)", "ஆமணக்கு பிண்ணாக்கு பயன்பாடு (2kg/மரம்)"],
+    "தடுப்பு முறைகள்": "பாதிக்கப்பட்ட பட்டையை அகற்றுதல், சுகாதாரத்தை பராமரித்தல், தண்டில் பாதுகாப்பு பூச்சுகளை பயன்படுத்துதல்"
+
   },
   "Flower Webber, Eublemma versicolor": {
+    "type": "pest",
     "fertilizer": "Balanced NPK (16:16:16)",
     "water": "70%",
-    "medicine": ["Bacillus thuringiensis 0.5%", "Spinosad 0.02%", "Emamectin benzoate 0.002%"],
-    "organic_medicine": ["Neem oil", "Tobacco extract", "Karanj oil"],
-    "prevention": "Remove webbed flowers, destroy them properly, maintain orchard cleanliness"
+    "medicine": ["Bacillus thuringiensis 0.5% (5g/L water)", "Spinosad 0.02% (0.2ml/L water)", "Emamectin benzoate 0.002% (0.2ml/L water)"],
+    "organic_medicine": ["Neem oil (5ml/L water)", "Tobacco extract (50g tobacco/L water)", "Karanj oil (5ml/L water)"],
+    "prevention": "Remove webbed flowers, destroy them properly, maintain orchard cleanliness",
+    "பூ வலையன்": "(Flower Webber)",
+    "வகை": "பூச்சி",
+    "உரம்": "சமநிலை NPK (16:16:16)",
+    "நீர்": "70%",
+    "மருந்து": ["பாசில்லஸ் தூரிஞ்சியன்சிஸ் 0.5% (5g/L நீர்)", "ஸ்பினோசாட் 0.02% (0.2ml/L நீர்)", "எமாமெக்டின் பென்சோயேட் 0.002% (0.2ml/L நீர்)"],
+    "கரிம மருந்து": ["வேப்ப எண்ணெய் (5ml/L நீர்)", "புகையிலை சாறு (50g புகையிலை/L நீர்)", "கரஞ்சு எண்ணெய் (5ml/L நீர்)"],
+    "தடுப்பு முறைகள்": "வலையுள்ள பூக்களை அகற்றுதல், அவற்றை சரியாக அழித்தல், தோட்ட சுத்தத்தை பராமரித்தல்"
+
   },
   "Fruit Fly, Bactrocera (Dacus) dorsalis": {
+    "type": "pest",
     "fertilizer": "Balanced NPK (15:15:15)",
     "water": "70%",
-    "medicine": ["Protein bait spray", "Malathion 0.1%", "Deltamethrin 0.002%"],
-    "organic_medicine": ["Sticky traps", "Neem cake application", "Fermented fruit traps"],
-    "prevention": "Bag fruits, destroy fallen fruits, use methyl eugenol traps"
+    "medicine": ["Protein bait spray (100ml/trap)", "Malathion 0.1% (1ml/L water)", "Deltamethrin 0.002% (0.2ml/L water)"],
+    "organic_medicine": ["Sticky traps (1 trap/10 trees)", "Neem cake application (2kg/tree)", "Fermented fruit traps (500ml/trap)"],
+    "prevention": "Bag fruits, destroy fallen fruits, use methyl eugenol traps",
+    "பழ ஈ": "(Fruit Fly)",
+    "வகை": "பூச்சி",
+    "உரம்": "சமநிலை NPK (15:15:15)",
+    "நீர்": "70%",
+    "மருந்து": ["புரத தூண்டு தெளிப்பு (100ml/பொறி)", "மலத்தியோன் 0.1% (1ml/L நீர்)", "டெல்டாமெத்ரின் 0.002% (0.2ml/L நீர்)"],
+    "கரிம மருந்து": ["ஒட்டும் பொறிகள் (1 பொறி/10 மரங்கள்)", "வேப்ப பிண்ணாக்கு பயன்பாடு (2kg/மரம்)", "புளித்த பழ பொறிகள் (500ml/பொறி)"],
+    "தடுப்பு முறைகள்": "பழங்களை மூடுதல், விழுந்த பழங்களை அழித்தல், மெத்தில் யூஜினால் பொறிகளை பயன்படுத்துதல்"
+
   },
   "Grey Blight": {
+    "type": "fungal",
     "fertilizer": "Balanced NPK (20:20:20)",
     "water": "70%",
-    "medicine": ["Mancozeb 0.2%", "Carbendazim 0.1%", "Copper oxychloride 0.3%"],
-    "organic_medicine": ["Neem oil spray", "Baking soda solution", "Garlic extract"],
-    "prevention": "Remove infected leaves, improve air circulation, avoid overhead irrigation"
+    "medicine": ["Mancozeb 0.2% (2g/L water)", "Carbendazim 0.1% (1g/L water)", "Copper oxychloride 0.3% (3g/L water)"],
+    "organic_medicine": ["Neem oil spray (5ml/L water)", "Baking soda solution (5g/L water)", "Garlic extract (50g crushed garlic/L water)"],
+    "prevention": "Remove infected leaves, improve air circulation, avoid overhead irrigation",
+    "பெயர்": "சாம்பல் தீக்கனல்(Grey Blight)",
+    "வகை": "பூஞ்சை",
+    "உரம்": "சமநிலை NPK (20:20:20)",
+    "நீர்": "70%",
+    "மருந்து": ["மேன்கோசெப் 0.2% (2g/L நீர்)", "கார்பெண்டாசிம் 0.1% (1g/L நீர்)", "காப்பர் ஆக்சிக்ளோரைடு 0.3% (3g/L நீர்)"],
+    "கரிம மருந்து": ["வேப்ப எண்ணெய் தெளிப்பு (5ml/L நீர்)", "பேக்கிங் சோடா கரைசல் (5g/L நீர்)", "பூண்டு சாறு (50g நறுக்கிய பூண்டு/L நீர்)"],
+    "தடுப்பு முறைகள்": "பாதிக்கப்பட்ட இலைகளை அகற்றுதல், காற்று சுழற்சியை மேம்படுத்துதல், மேல்புற பாசனத்தை தவிர்த்தல்"
+
   },
   "Anthracnose": {
+    "type": "fungal",
     "fertilizer": "Balanced NPK with micronutrients",
     "water": "70%",
-    "medicine": ["Copper oxychloride 0.3%", "Carbendazim 0.1%", "Hexaconazole 0.1%"],
-    "organic_medicine": ["Neem oil", "Baking soda spray", "Garlic extract"],
-    "prevention": "Prune affected parts, spray fungicides during flowering, improve air circulation"
+    "medicine": ["Copper oxychloride 0.3% (3g/L water)", "Carbendazim 0.1% (1g/L water)", "Hexaconazole 0.1% (1ml/L water)"],
+    "organic_medicine": ["Neem oil (5ml/L water)", "Baking soda spray (5g/L water)", "Garlic extract (50g crushed garlic/L water)"],
+    "prevention": "Prune affected parts, spray fungicides during flowering, improve air circulation",
+    "பெயர்": "அந்திரக்னோசு(Anthracnose)",
+    "வகை": "பூஞ்சை",
+    "உரம்": "நுண்ணூட்டச்சத்துகளுடன் கூடிய சமநிலை NPK",
+    "நீர்": "70%",
+    "மருந்து": ["காப்பர் ஆக்சிக்ளோரைடு 0.3% (3g/L நீர்)", "கார்பெண்டாசிம் 0.1% (1g/L நீர்)", "ஹெக்சாகோனசோல் 0.1% (1ml/L நீர்)"],
+    "கரிம மருந்து": ["வேப்ப எண்ணெய் (5ml/L நீர்)", "பேக்கிங் சோடா தெளிப்பு (5g/L நீர்)", "பூண்டு சாறு (50g நறுக்கிய பூண்டு/L நீர்)"],
+    "தடுப்பு முறைகள்": "பாதிக்கப்பட்ட பகுதிகளை கத்தரித்தல், மலரும் போது பூஞ்சைக்கொல்லிகளை தெளித்தல், காற்று சுழற்சியை மேம்படுத்துதல்"
+
+
   }
 }
